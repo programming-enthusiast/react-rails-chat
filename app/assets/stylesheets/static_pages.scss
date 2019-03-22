@@ -1,0 +1,50 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: "PT Sans", sans-serif;
+  // font-family: 'Lato', sans-serif;
+}
+
+.main-app {
+  background: none;
+}
+
+.tooltip {
+  position: absolute;
+  white-space: nowrap;
+  background-color: #7289da;
+  border-radius: 3px;
+  color: white;
+  padding: 3px 4px;
+  font-size: 12px;
+}
+
+.circle-base {
+  border-radius: 50%;
+  behavior: url(PIE.htc)
+}
+
+.scroll-y {
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+ 
+::-webkit-scrollbar-track-piece {
+  background-color: inherit;
+    border-radius: 7px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: #1e2124;
+  border-radius: 7px;
+  border: 3px solid inherit;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: black;
+} 
+
