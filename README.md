@@ -1,6 +1,6 @@
 # React-Rails-Chat
 
-[Disclone Live][heroku]
+[Live][heroku]
 
 [heroku]: http:/disclone.herokuapp.com
 
